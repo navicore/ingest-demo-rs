@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "name": "Boat 1",
+  "uuid": "urn:mrn:signalk:uuid:182010c5-20f6-4c8a-9f32-fd18af029d3a",
+  "latitude": 37.78039400669318,
+  "longitude": -122.38526611923439,
+  "altitude": 0.0,
+  "course": 24.786300968644476,
+  "speed": 6,
+  "timestamp": "2025-04-16T07:18:45.592502Z"
+}
