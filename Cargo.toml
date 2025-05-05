@@ -14,7 +14,7 @@ parquet = "47.0"
 arrow = "47.0"
 arrow-schema = "47.0"
 arrow-json = "47.0"
-polars = { version = "0.36", features = ["parquet"] }
+polars = { version = "0.47", features = ["parquet"] }
 tracing = "0.1"
 tracing-subscriber = "0.3"
 
