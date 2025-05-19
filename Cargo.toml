@@ -12,7 +12,7 @@ rand = "0.8"
 uuid = { version = "1.6", features = ["v4", "serde"] }
 parquet = "47.0"
 arrow = "47.0"
-arrow-schema = "47.0"
+arrow-schema = "55.1"
 arrow-json = "47.0"
 polars = { version = "0.36", features = ["parquet"] }
 tracing = "0.1"
