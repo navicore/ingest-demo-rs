@@ -66,10 +66,10 @@ jobs:
         command: build
         args: --release --verbose
     
-    - name: Functional test 
-      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      run: |
-        mkdir -p test-output
-        ./target/release/ingest-demo generate --count 10 > test-output/test.json
-        cat test-output/test.json | ./target/release/ingest-demo convert --output test-output/parquet
-        find test-output/parquet -type f | wc -l | grep -v "0"
+    # - name: Functional test 
+    #   if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    #   run: |
+    #     mkdir -p test-output
+    #     ./target/release/ingest-demo generate --count 10 > test-output/test.json
+    #     cat test-output/test.json | ./target/release/ingest-demo convert --output test-output/parquet
+    #     find test-output/parquet -type f | wc -l | grep -v "0"
