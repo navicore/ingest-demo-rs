@@ -4,7 +4,6 @@ use arrow::record_batch::RecordBatch;
 use arrow_schema::{DataType, Field, Schema};
 use parquet::arrow::arrow_writer::ArrowWriter;
 use parquet::file::properties::WriterProperties;
-use polars::prelude::*;
 use std::collections::HashMap;
 use std::error::Error;
 use std::fs::{self, create_dir_all};

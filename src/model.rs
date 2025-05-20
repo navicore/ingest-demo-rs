@@ -1,5 +1,5 @@
 use chrono::{DateTime, Utc};
-use rand::{prelude::*, Rng};
+use rand::Rng;
 use serde::{Deserialize, Serialize};
 use std::fs::File;
 use std::io::Read;
