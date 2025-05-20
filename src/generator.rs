@@ -1,7 +1,6 @@
 use crate::model::Record;
 use rand::thread_rng;
 use std::error::Error;
-use std::io::stdout;
 use std::path::Path;
 
 pub fn generate_records(count: usize, example_path: &Path) -> Result<(), Box<dyn Error>> {
