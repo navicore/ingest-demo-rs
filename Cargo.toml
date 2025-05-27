@@ -7,14 +7,14 @@ edition = "2021"
 clap = { version = "4.5", features = ["derive"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-chrono = { version = "= 0.4.39", features = ["serde"] } # This side steps the issue caused by chrono's 0.4.40 release
+chrono = { version = "= 0.4", features = ["serde"] } # This side steps the issue caused by chrono's 0.4.40 release
 rand = "0.9"
 uuid = { version = "1.6", features = ["v4", "serde"] }
-parquet = "47.0"
-arrow = "47.0"
-arrow-schema = "47.0"
-arrow-json = "47.0"
-polars = { version = "0.48", features = ["parquet"] }
+parquet = "55.1"
+arrow = "55.1"
+arrow-schema = "55.1"
+arrow-json = "55.1"
+polars = { version = "0.47", features = ["parquet"] }
 tracing = "0.1"
 tracing-subscriber = "0.3"
 
