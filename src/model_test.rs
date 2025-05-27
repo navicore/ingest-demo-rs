@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod tests {
     use chrono::{DateTime, Utc};
-    use rand::thread_rng;
+    use rand::rng;
     use uuid::Uuid;
 
     use crate::model::Record;
@@ -59,7 +59,7 @@ mod tests {
             timestamp,
         };
 
-        let mut rng = thread_rng();
+        let mut rng = rng();
         let random_record = Record::generate_random(&example, &mut rng);
 
         assert_eq!(random_record.version, "1.0.0");
