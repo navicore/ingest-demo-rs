@@ -11,7 +11,7 @@ chrono = { version = "= 0.4.39", features = ["serde"] } # This side steps the is
 rand = "0.9"
 uuid = { version = "1.6", features = ["v4", "serde"] }
 parquet = "47.0"
-arrow = "47.0"
+arrow = "55.1"
 arrow-schema = "47.0"
 arrow-json = "47.0"
 polars = { version = "0.48", features = ["parquet"] }
