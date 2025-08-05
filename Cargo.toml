@@ -10,11 +10,11 @@ serde_json = "1.0"
 chrono = { version = "= 0.4", features = ["serde"] } # This side steps the issue caused by chrono's 0.4.40 release
 rand = "0.9"
 uuid = { version = "1.6", features = ["v4", "serde"] }
-parquet = "55.1"
-arrow = "55.1"
-arrow-schema = "55.1"
-arrow-json = "55.1"
 polars = { version = "0.50", features = ["parquet"] }
+parquet = "56.0"
+arrow = "56.0"
+arrow-schema = "56.0"
+arrow-json = "56.0"
 tracing = "0.1"
 tracing-subscriber = "0.3"
 

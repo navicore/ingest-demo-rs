@@ -44,7 +44,7 @@ impl Record {
 
         Self {
             version: example.version.clone(),
-            name: format!("Boat {}", boat_num),
+            name: format!("Boat {boat_num}"),
             uuid: format!("urn:mrn:signalk:uuid:{}", uuid::Uuid::new_v4()),
             latitude: example.latitude + rng.random_range(-1.0..1.0),
             longitude: example.longitude + rng.random_range(-1.0..1.0),
