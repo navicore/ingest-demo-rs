@@ -13,7 +13,7 @@ uuid = { version = "1.6", features = ["v4", "serde"] }
 polars = { version = "0.51", features = ["parquet"] }
 parquet = "56.0"
 arrow = "56.0"
-arrow-schema = "56.0"
+arrow-schema = "57.0"
 arrow-json = "57.0"
 tracing = "0.1"
 tracing-subscriber = "0.3"
